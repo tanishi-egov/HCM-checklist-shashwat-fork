@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 1.4.0+0
 
 environment:
-  sdk: '>=3.0.0 <=4.0.0'
+  sdk: ">=3.2.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -92,6 +92,8 @@ dev_dependencies:
 
 dependency_overrides:
   intl: ^0.18.0
+  digit_firebase_services:
+    path: ../../packages/digit_firebase_services
 
 flutter_icons:
   android: 'ic_launcher'
